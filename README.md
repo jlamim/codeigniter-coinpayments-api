@@ -37,5 +37,7 @@ You need to create an account at coinpayments.net and register the API keys. For
 **Useful links**
 
 CoinPayments: https://www.coinpayments.net
+
 API Doc:  https://www.coinpayments.net/apidoc
+
 LTCT Tests: https://blog.coinpayments.net/tutorials/integration/integrating-coinpayments-step-4-testing-integration
