@@ -12,6 +12,20 @@ Copy this directories to your project, open `config/coinpayments.php` and set `P
 
 After set this values, open `config/autoload.php` and define `coinpayments` to autoload `$autoload['libraries'] = array();`, so that you can use any method from this library in your application any time.
 
+## Methods in this library
+
+`getAccountInfo`: Gets your current CoinPayments.net basic infos.
+`getRates`: Gets the current CoinPayments.net exchange rate. Output includes both crypto and fiat currencies.
+`getBalances`: Gets your current coin balances (only includes coins with a balance unless all = TRUE)
+`getDepositAddress`: Returns the address for deposit in personal wallet.
+`createTransactionSimple`: Creates a basic transaction with minimal parameters
+`createTransaction`: Creates a transaction (See https://www.coinpayments.net/apidoc-create-transaction for more infos)
+`getCallbackAddress`: Creates an address for receiving payments into your CoinPayments Wallet
+`createWithdrawal`: Creates a withdrawal from your account to a specified address.
+`createTransfer`: Creates a transfer from your account to a specified merchant.
+`sendToPayByName`: Creates a transfer from your account to a specified $PayByName tag.
+
+
 ## Examples
 
 In the `examples` directory, have a complete installation of CodeIgniter 3 with some examples using the CoinPayment API and the library in this repository.
