@@ -14,16 +14,16 @@ After set this values, open `config/autoload.php` and define `coinpayments` to a
 
 ## Methods in this library
 
-`getAccountInfo`: Gets your current CoinPayments.net basic infos.
-`getRates`: Gets the current CoinPayments.net exchange rate. Output includes both crypto and fiat currencies.
-`getBalances`: Gets your current coin balances (only includes coins with a balance unless all = TRUE)
-`getDepositAddress`: Returns the address for deposit in personal wallet.
-`createTransactionSimple`: Creates a basic transaction with minimal parameters
-`createTransaction`: Creates a transaction (See https://www.coinpayments.net/apidoc-create-transaction for more infos)
-`getCallbackAddress`: Creates an address for receiving payments into your CoinPayments Wallet
-`createWithdrawal`: Creates a withdrawal from your account to a specified address.
-`createTransfer`: Creates a transfer from your account to a specified merchant.
-`sendToPayByName`: Creates a transfer from your account to a specified $PayByName tag.
+- `getAccountInfo`: Gets your current CoinPayments.net basic infos.
+- `getRates`: Gets the current CoinPayments.net exchange rate. Output includes both crypto and fiat currencies.
+- `getBalances`: Gets your current coin balances (only includes coins with a balance unless all = TRUE)
+- `getDepositAddress`: Returns the address for deposit in personal wallet.
+- `createTransactionSimple`: Creates a basic transaction with minimal parameters
+- `createTransaction`: Creates a transaction (See https://www.coinpayments.net/apidoc-create-transaction for more infos)
+- `getCallbackAddress`: Creates an address for receiving payments into your CoinPayments Wallet
+- `createWithdrawal`: Creates a withdrawal from your account to a specified address.
+- `createTransfer`: Creates a transfer from your account to a specified merchant.
+- `sendToPayByName`: Creates a transfer from your account to a specified $PayByName tag.
 
 
 ## Examples
